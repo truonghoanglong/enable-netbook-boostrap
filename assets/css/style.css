@@ -58,7 +58,9 @@ hr{
     background-repeat: no-repeat;
     background-size: cover;
 }
-
+.bg-background-content{
+    background: linear-gradient(0deg, rgba(241, 246, 253, 0) 1.63%, #F1F6FD 20.5%, #F1F6FD 58.57%, #FFFFFF 100%);
+}
 .bg-footer-custom{
     background-color: #2B2B39;
 }
@@ -73,4 +75,14 @@ hr{
 p{
     margin: 0 !important;
     padding: 0 !important;
+}
+.text-color-small{
+    color: #656464;
+}
+.text-color-big{
+    color:#2F2C4A;
+}
+.py-180{
+    padding-top: 180px;
+    padding-bottom: 180px;
 }
