@@ -12,13 +12,6 @@ html {
     background-color:#e4e4e4;
 }
 
-:root {
-    --primary-color: #217BF4;
-    --text-big:#2F2C4A;
-    --text-maill:#656464;
-    --text-white:#FFFF;
-}
-
 .container-custom{
     max-width: 1130px;
     width: 100%;
@@ -29,8 +22,11 @@ html {
     background: linear-gradient(311.76deg, #D4E7FE -15.24%, #FFFFFF 78.85%);
     margin: 0 auto;
 }
-
-.rounded-brand {
+hr{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;   
+}
+.rounded-brand{
     border-radius: 14px !important;
 }
 
@@ -66,7 +62,15 @@ html {
 .bg-footer-custom{
     background-color: #2B2B39;
 }
+.bg-footer2-custom{
+    background-color: #20202D;
+}
 .outline-0{
     outline:0;
     background-color:transparent;
+}
+
+p{
+    margin: 0 !important;
+    padding: 0 !important;
 }

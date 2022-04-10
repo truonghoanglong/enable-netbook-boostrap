@@ -14,8 +14,8 @@
     <link rel="stylesheet" href="./assets/css/style.css">
 
     <!-- boostrap -->
-    <link rel="stylesheet" href="./assets/boostrap/css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="./assets/boostrap/css/bootstrap.css">
+    
     <!-- fornt-awesome -->
 
 
@@ -27,8 +27,9 @@
     <!-- HEADER -->
     <div class="header pb-5">
         <div class="header-items pb-5">
-            <div class="header-nav container">
-                <div class="row d-flex justify-content-between pt-3">
+            <div class="header-nav ">
+               <div class="py-3 container">
+                <div class="row d-flex justify-content-between">
                     <div class="col-sm-12 col-md-6 col-lg-2">
                         <div class="nav-logo d-flex justify-content-center align-items-center align-content-center">
                             <img src="./assets/image/logo.png" alt="" class="pt-1">
@@ -56,28 +57,33 @@
                     </div>
 
                     <div class="col-sm-12 col-md-6 col-lg-4">
-                        <div class="nav-search d-flex justify-content-between ml-auto">
-                            <div class="input-search">
+                        <div class="nav-search d-flex justify-content-between">
+                            <div class=""></div>
+                            <div class="input-search border-bottom">
                                 <img src="./assets/image/searh.png" alt="">
-                                <input type="text" class="mt-2 border-0 bg-transparent" placeholder="Search Hare...">
+                                <input type="text" class="mt-2 border-0 bg-transparent outline-0" placeholder="Search Hare...">
                             </div>
+                            
                             <button type="button" class="btn btn-primary rounded-brand px-4 py-2">Log in</button>
                         </div>
                     </div>
                 </div>
-
+               </div>   
+               <hr> 
             </div>
-            <hr>
-            <div class="content container">
-                <div class="row align-items-center">
+            
+            <div class="content container py-5">
+                <div class="row align-items-center py-5">
                     <div class="col-sm-12 col-md-6 col-lg-6 ">
-                        <div class="contentA d-flex flex-column ">
-                            <span class="block mb-2 rounded-pill" style="--bs-bg-opacity: .5;">Netbook community</span>
+                        <div class="d-flex flex-column justify-content-between">
+                            <div class="text-primary">
+                                <span class=" px-3 py-2 rounded-pill">Netbook community</span>
+                            </div>
                             <p class="fs-1 fw-bold">Your Solutions For Community!</p>
-                            <p class="fw-lighter mt-1 fs-6">More than 2 billion people in over countries use socibook
+                            <p class="fw-lighter mt-3 fs-6">More than 2 billion people in over countries use socibook
                                 <br> to stay in touch with friends &
                                 family.</p>
-                            <div class="btnContent pt-3">
+                            <div class="btnContent py-5">
                                 <button class="btn btn-primary px-5 py-3 me-3 rounded-brand">About More</button>
                                 <button class="btn btn-light border-info px-5 py-3 rounded-brand text-primary">Invite
                                     Friend</button>
@@ -100,8 +106,8 @@
     <!-- END-HEADER -->
 
     <!-- NETWORK -->
-    <div class="network container ">
-        <div class="row align-items-center">
+    <div class="network container py-5 ">
+        <div class="row align-items-center py-5">
             <div class="col-sm-12 col-md-6 col-lg-6">
                 <div class="networkA pt-5">
                     <p class="text-primary fs-5">Whats Netboks?</p>
@@ -130,20 +136,19 @@
             </div>
 
             <div class="col-sm-12 col-md-6 col-lg-6 mt-5">
-                <div class="networkB d-flex">
+                <div class="">
 
-                    <div class="row">
-                        <div class="col-sm-12 col-md-6 col-lg-6">
-                            <div class="anh1 mt-5 pe-3 overflow-hidden img-custom">
-                                <img src="./assets/image/network1.png" alt="" class="pt-5 overflow-hidden img-custom">
+                    <div class="row d-flex align-items-center justify-content-center">
+                        <div class="col-sm-12 col-md-6 col-lg-6  overflow-hidden ">
+                            <div class="w-100 d-flex align-items-center justify-content-center overflow-hidden">
+                                <img src="./assets/image/network1.png" alt="" class="overflow-hidden img-custom">
                             </div>
                         </div>
 
                         <div class="col-sm-12 col-md-6 col-lg-6">
-                            <div class="anh23 pt-5">
-                                <div class="anh2"><img src="./assets/image/network3.png" alt=""></div>
-                                <div class="anh3 pt-3"><img src="./assets/image/network2.png" alt=""></div>
-                                </anh23>
+                            <div class="anh23 d-flex flex-column align-items-center justify-content-center overflow-hidden">
+                                <div class="pt-sm-3" ><img src="./assets/image/network3.png" alt=""></div>
+                                <div class="pt-sm-3"><img src="./assets/image/network2.png" alt=""></div>
                             </div>
                         </div>
                     </div>
@@ -499,20 +504,20 @@
     <!-- FOOTER -->
     <div class="bg-footer-custom">
         <div class="container">
-            <div class="upper">
-                <div class="items px-5">
+           
+                <div class="items py-5">
                     <div class="row">
                         <div class="col-sm-12 col-md-6 col-lg-8">
                             <div class="row">
-                                <div class="col-sm-12 col-md-6 col-lg-3 text-white py-5">
-                                    <p>Home</p>
+                                <div class="col-sm-12 col-md-6 col-lg-3 text-white ">
+                                    <p class="">Home</p>
                                     <p>Home</p>
                                     <p>Community</p>
                                     <p>Event</p>
                                     <p>Concact</p>
                                 </div>
     
-                                <div class="col-sm-12 col-md-6 col-lg-3 text-white py-5">
+                                <div class="col-sm-12 col-md-6 col-lg-3 text-white">
                                     <p>Home</p>
                                     <p>Home</p>
                                     <p>Community</p>
@@ -520,7 +525,7 @@
                                     <p>Concact</p>
                                 </div>
 
-                                <div class="col-sm-12 col-md-6 col-lg-3 text-white py-5">
+                                <div class="col-sm-12 col-md-6 col-lg-3 text-white ">
                                     <p>Home</p>
                                     <p>Home</p>
                                     <p>Community</p>
@@ -528,7 +533,7 @@
                                     <p>Concact</p>
                                 </div>
 
-                                <div class="col-sm-12 col-md-6 col-lg-3 text-white py-5">
+                                <div class="col-sm-12 col-md-6 col-lg-3 text-white">
                                     <p>Home</p>
                                     <p>Home</p>
                                     <p>Community</p>
@@ -540,25 +545,52 @@
                         </div>
     
                         <div class="col-sm-12 col-md-6 col-lg-4">
-                            <div class="py-5 text-white">
+                            <div class="text-white">
                                 <p>Subscribe Cirkle Newsletter</p>
                                 <p>Subscribe to be the first one to know about updates. Enter your email</p>
-                                <div class="d-flex m-1 mx-auto">
-                                    <input type="text" placeholder="Email Address"class="rounded-brand p-2 border-light outline-0">
-                                    <button>Subscribe</button>
+                                <div class="d-flex m-1 mx-auto  position-relative">
+                                    <input type="text" placeholder="Email Address" class="rounded-brand p-2 border-light outline-0 w-100">
+                                    <button class="rounded-brand p-2 position-absolute end-0">Subscribe</button>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
+           
     
-            <div class="below">
-                
-            </div>
         </div>
     </div>
     <!-- END-FOOTER -->
+
+    <div class="bg-footer2-custom">
+        <div class="container">
+            <div class="below bg-footer2-custom py-4">
+                <div class="row d-flex align-items-center justify-content-between justify-content-sm-around">
+        
+                    <div class="col-sm-12 col-md-12 col-lg-4 d-flex align-items-center">
+                        <div class="text-white align-items-center ">Besnik Creative Agency.</div>
+                    </div>
+        
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <img src="./assets/image/logo2.png" alt="">
+                    </div>
+        
+                    <div class="col-sm-12 col-md-12 col-lg-4">
+                        <div class="p-2">
+                            <div class="d-flex  align-items-center justify-content-lg-end">
+                                 <div class="bg-light p-2 rounded-pill mx-2"><img src="./assets/image/twi.png" alt=""></div>
+                                 <div class="bg-light p-2 rounded-pill mx-2"><img src="./assets/image/insta.png" alt=""></div>
+                                 <div class="bg-light p-2 rounded-pill mx-2"><img src="./assets/image/facebook.png" alt=""></div>
+                                 <div class="bg-light p-2 rounded-pill ms-2"><img src="./assets/image/Linkedin.png" alt=""></div>
+                             </div>
+                         </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    
+    </div>
+
 
     <!-- boostrap -->
     <script src="./assets/boostrap/js/bootstrap.min.js"></script>
